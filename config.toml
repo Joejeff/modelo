@@ -1,0 +1,47 @@
+baseURL = "http://example.org/"
+languageCode = "pt-br"
+title = "Meu novo site com o Hugo"
+theme = "meublog"
+
+[params]
+    description = "Meu tema feito com Hugo"
+    author = "Jefferson Oliveira"
+    authorImage = "/images/joejeff.jpeg"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"  
+
+[[menu.main]]
+  name = "Sobre"
+  url = "/sobre"
+
+
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/pakstech"
+    pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+    name = "YouTube"
+    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+    pre = "<i class='fab fa-youtube'></i>"
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/pakstech"
+    pre = "<i class='fab fa-twitter'></i>"
+
+
+
+[[menu.footer]]
+  name = "Sobre"
+  url = "/sobre"
+
+[[menu.footer]]
+  name = "Privacidade"
+  url = "/privacidade"
