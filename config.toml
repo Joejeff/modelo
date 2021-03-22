@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "pt-br"
-title = "Meu novo site com o Hugo"
+title = "Site com Hugo"
 theme = "meublog"
 
 [params]
@@ -11,29 +11,36 @@ theme = "meublog"
 [[menu.main]]
   name = "Home"
   url = "/"
+  weight = 1
 
 [[menu.main]]
   name = "Blog"
-  url = "/blog"  
+  url = "/blog" 
+  weight = 2 
 
 [[menu.main]]
   name = "Sobre"
   url = "/sobre"
+  weight = 3
 
+[[menu.main]]
+  name = "Contato"
+  url = "/contato"
+  weight = 4
 
 [[menu.social]]
     name = "GitHub"
-    url = "https://github.com/pakstech"
+    url = "https://github.com/joejeff"
     pre = "<i class='fab fa-github'></i>"
 
 [[menu.social]]
     name = "YouTube"
-    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+    url = "https://www.youtube.com/channel/UCsOTyjn5Hrr0-fZ4Gc8FrJQ"
     pre = "<i class='fab fa-youtube'></i>"
 
 [[menu.social]]
     name = "Twitter"
-    url = "https://twitter.com/pakstech"
+    url = "https://twitter.com/joejeff1982"
     pre = "<i class='fab fa-twitter'></i>"
 
 
@@ -41,7 +48,9 @@ theme = "meublog"
 [[menu.footer]]
   name = "Sobre"
   url = "/sobre"
+  weight = 1
 
 [[menu.footer]]
   name = "Privacidade"
   url = "/privacidade"
+  weight = 2
